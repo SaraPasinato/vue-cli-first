@@ -1,7 +1,9 @@
 <template>
-  <div class="hello">
-    <h1>La mia prima app con Vue CLI!</h1>
-  </div>
+  <header class="hello">
+    <div class="container">
+      <h1>La mia prima app con Vue CLI!</h1>
+    </div>
+  </header>
 </template>
 
 <script>
@@ -12,5 +14,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+.container{
+  margin: 0 auto;
+  width: 1000px;
+}
+.hello{
+  background-color: #183446;
+  height: 10vh;
+  display: none;
+}
 
+.hello h1{
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
 </style>
