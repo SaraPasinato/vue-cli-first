@@ -18,10 +18,12 @@ export default {
   margin: 0 auto;
   width: 1000px;
 }
+/*Display none  messo solo per non cancellare 1.esercizio */
+
 .hello{
   background-color: #183446;
   height: 10vh;
-  display: none;
+  display: none; /*HERE*/
 }
 
 .hello h1{
